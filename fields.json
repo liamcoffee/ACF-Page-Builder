@@ -1,0 +1,268 @@
+[
+    {
+        "key": "group_5d1df39876c15",
+        "title": "Page Builder",
+        "fields": [
+            {
+                "key": "field_5d1df39d0dd9d",
+                "label": "Content",
+                "name": "content",
+                "type": "flexible_content",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "layouts": {
+                    "layout_5d1df5110dda2": {
+                        "key": "layout_5d1df5110dda2",
+                        "name": "smartcols",
+                        "label": "Smart Columns",
+                        "display": "block",
+                        "sub_fields": [
+                            {
+                                "key": "field_5d1f182f51a54",
+                                "label": "Center content",
+                                "name": "center_content",
+                                "type": "checkbox",
+                                "instructions": "If you require content in this row of columns centred check this box, otherwise it will be left aligned.",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "choices": {
+                                    "text-center": "Center content"
+                                },
+                                "allow_custom": 0,
+                                "default_value": [],
+                                "layout": "vertical",
+                                "toggle": 0,
+                                "return_format": "value",
+                                "save_custom": 0
+                            },
+                            {
+                                "key": "field_5d1dfa200dda4",
+                                "label": "Column",
+                                "name": "column",
+                                "type": "repeater",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "collapsed": "",
+                                "min": 0,
+                                "max": 4,
+                                "layout": "block",
+                                "button_label": "Add Column",
+                                "sub_fields": [
+                                    {
+                                        "key": "field_5d1dfa320dda5",
+                                        "label": "Image",
+                                        "name": "image",
+                                        "type": "image",
+                                        "instructions": "If you are using more than 1 column please ensure all images are of equal dimensions for the best results",
+                                        "required": 0,
+                                        "conditional_logic": 0,
+                                        "wrapper": {
+                                            "width": "",
+                                            "class": "",
+                                            "id": ""
+                                        },
+                                        "return_format": "id",
+                                        "preview_size": "thumbnail",
+                                        "library": "all",
+                                        "min_width": "",
+                                        "min_height": "",
+                                        "min_size": "",
+                                        "max_width": "",
+                                        "max_height": "",
+                                        "max_size": "",
+                                        "mime_types": ""
+                                    },
+                                    {
+                                        "key": "field_5d1dfa3e0dda6",
+                                        "label": "Title",
+                                        "name": "title",
+                                        "type": "text",
+                                        "instructions": "",
+                                        "required": 0,
+                                        "conditional_logic": 0,
+                                        "wrapper": {
+                                            "width": "",
+                                            "class": "",
+                                            "id": ""
+                                        },
+                                        "default_value": "",
+                                        "placeholder": "",
+                                        "prepend": "",
+                                        "append": "",
+                                        "maxlength": ""
+                                    },
+                                    {
+                                        "key": "field_5d1dfa420dda7",
+                                        "label": "Text",
+                                        "name": "text",
+                                        "type": "wysiwyg",
+                                        "instructions": "",
+                                        "required": 0,
+                                        "conditional_logic": 0,
+                                        "wrapper": {
+                                            "width": "",
+                                            "class": "",
+                                            "id": ""
+                                        },
+                                        "default_value": "",
+                                        "tabs": "all",
+                                        "toolbar": "full",
+                                        "media_upload": 1,
+                                        "delay": 0
+                                    },
+                                    {
+                                        "key": "field_5d1f14e0de1ac",
+                                        "label": "cta",
+                                        "name": "cta",
+                                        "type": "link",
+                                        "instructions": "",
+                                        "required": 0,
+                                        "conditional_logic": 0,
+                                        "wrapper": {
+                                            "width": "",
+                                            "class": "",
+                                            "id": ""
+                                        },
+                                        "return_format": "array"
+                                    }
+                                ]
+                            }
+                        ],
+                        "min": "",
+                        "max": ""
+                    },
+                    "layout_5d1e00541d7eb": {
+                        "key": "layout_5d1e00541d7eb",
+                        "name": "full_width_image",
+                        "label": "Full Width Image",
+                        "display": "block",
+                        "sub_fields": [
+                            {
+                                "key": "field_5d1e00641d7ec",
+                                "label": "Image",
+                                "name": "full_image",
+                                "type": "image",
+                                "instructions": "Full width images should be at least 1170px wide. Try to avoid going over 550 in height, so small laptops can see the full image.",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "return_format": "id",
+                                "preview_size": "thumbnail",
+                                "library": "all",
+                                "min_width": "",
+                                "min_height": "",
+                                "min_size": "",
+                                "max_width": "",
+                                "max_height": "",
+                                "max_size": "",
+                                "mime_types": ""
+                            }
+                        ],
+                        "min": "",
+                        "max": ""
+                    },
+                    "layout_5d1f0c681649f": {
+                        "key": "layout_5d1f0c681649f",
+                        "name": "horizontalbreak",
+                        "label": "Horizontal Break",
+                        "display": "block",
+                        "sub_fields": [],
+                        "min": "",
+                        "max": ""
+                    },
+                    "layout_5d1f0f28e38dc": {
+                        "key": "layout_5d1f0f28e38dc",
+                        "name": "quote",
+                        "label": "Quote",
+                        "display": "block",
+                        "sub_fields": [
+                            {
+                                "key": "field_5d1f0f2de38dd",
+                                "label": "quote",
+                                "name": "quote",
+                                "type": "wysiwyg",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "default_value": "",
+                                "tabs": "all",
+                                "toolbar": "full",
+                                "media_upload": 1,
+                                "delay": 0
+                            },
+                            {
+                                "key": "field_5d1f0f3de38de",
+                                "label": "quotee",
+                                "name": "quotee",
+                                "type": "text",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "default_value": "",
+                                "placeholder": "",
+                                "prepend": "",
+                                "append": "",
+                                "maxlength": ""
+                            }
+                        ],
+                        "min": "",
+                        "max": ""
+                    }
+                },
+                "button_label": "Add New Section",
+                "min": "",
+                "max": ""
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "page_template",
+                    "operator": "==",
+                    "value": "templates\/template-builder.php"
+                }
+            ]
+        ],
+        "menu_order": 1,
+        "position": "acf_after_title",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": [
+            "the_content"
+        ],
+        "active": true,
+        "description": ""
+    }
+]
